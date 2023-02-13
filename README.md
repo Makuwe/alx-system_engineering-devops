@@ -1,2 +1,2 @@
 #!/bin/bash
-My schedule is tight 
+My schedule is tight
