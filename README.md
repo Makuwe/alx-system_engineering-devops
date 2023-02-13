@@ -1,1 +1,2 @@
-My first time in git
+#!/bin/bash
+ALX is awesome 
