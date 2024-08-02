@@ -1,0 +1,6 @@
+sudo ps aux | grep mysql
+sudo service mysql stop
+sudo dpkg --configure -a
+sudo wget -O mysql57 https://raw.githubusercontent.com/nuuxcode/alx-system_engineering-devops/master/scripts/mysql57 && sudo chmod +x mysql57 &&  sudo ./mysql57
+sudo apt-get update
+sudo apt-cache policy mysql-server
