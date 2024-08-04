@@ -1,0 +1,2 @@
+mysqldump -u root -p"$1" --all-databases --add-drop-database > backup.sql
+
