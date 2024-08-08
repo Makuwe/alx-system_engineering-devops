@@ -5,8 +5,9 @@ gather employee data from API
 import requests
 import sys
 
+url = "https://jsonplaceholder.typicode.com/"
+
 if __name__ == "__main__":
-    url = "https://jsonplaceholder.typicode.com/"
 
     employee_id = sys.argv[1]
 
@@ -28,4 +29,3 @@ if __name__ == "__main__":
 
     for complete in completed:
         print("\t {}".format(complete))
-
