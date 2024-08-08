@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-'''
+"""
 gather employee data from API
-'''
+"""
+
 import requests
 import sys
 
-url = "https://jsonplaceholder.typicode.com/"
-
 if __name__ == "__main__":
+    url = "https://jsonplaceholder.typicode.com/"
 
     employee_id = sys.argv[1]
 
