@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-"""
-Uses Reddit API to get all hot posts
-"""
+"""Uses Reddit API to get all hot posts."""
 
 import requests
 
 
 def recurse(subreddit, hot_list=None, after=""):
+    """Recursively fetches hot posts from a given subreddit."""
     if hot_list is None:
         hot_list = []
 
